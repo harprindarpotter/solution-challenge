@@ -1,0 +1,22 @@
+[
+  {
+    "id": "v1",
+    "assetId": "a1",
+    "assetName": "Champions League Highlight - Match 3",
+    "platform": "Twitter",
+    "url": "https://twitter.com/user123/status/99999",
+    "similarityScore": 94,
+    "detectedAt": "2025-03-04T10:22:00Z",
+    "status": "Open"
+  },
+  {
+    "id": "v2",
+    "assetId": "a1",
+    "assetName": "Champions League Highlight - Match 3",
+    "platform": "Reddit",
+    "url": "https://reddit.com/r/soccer/comments/abc",
+    "similarityScore": 88,
+    "detectedAt": "2025-03-05T14:15:00Z",
+    "status": "Open"
+  }
+]

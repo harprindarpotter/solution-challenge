@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a1",
+    "name": "Champions League Highlight - Match 3",
+    "type": "Video",
+    "status": "Violation Found",
+    "registeredAt": "2025-03-01",
+    "thumbnail": "https://picsum.photos/seed/a1/300/200"
+  },
+  {
+    "id": "a2",
+    "name": "Premier League Final Photo",
+    "type": "Photo",
+    "status": "Protected",
+    "registeredAt": "2025-03-05",
+    "thumbnail": "https://picsum.photos/seed/a2/300/200"
+  },
+  {
+    "id": "a3",
+    "name": "Official Team Logo",
+    "type": "Graphic",
+    "status": "Scanning",
+    "registeredAt": "2025-03-10",
+    "thumbnail": "https://picsum.photos/seed/a3/300/200"
+  }
+]

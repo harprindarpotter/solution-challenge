@@ -1,0 +1,14 @@
+{
+  "a1": [
+    { "day": 0, "platform": "Club Website", "event": "Official upload", "timestamp": "2025-03-01T08:00:00Z" },
+    { "day": 1, "platform": "Twitter", "event": "Unauthorized repost detected", "timestamp": "2025-03-02T10:00:00Z" },
+    { "day": 3, "platform": "Reddit", "event": "Shared in r/soccer", "timestamp": "2025-03-04T15:30:00Z" },
+    { "day": 5, "platform": "News Blog", "event": "Detected on 3 sports blogs", "timestamp": "2025-03-06T09:00:00Z" }
+  ],
+  "a2": [
+    { "day": 0, "platform": "Club Website", "event": "Official upload", "timestamp": "2025-03-05T08:00:00Z" }
+  ],
+  "a3": [
+    { "day": 0, "platform": "Club Website", "event": "Official upload", "timestamp": "2025-03-10T08:00:00Z" }
+  ]
+}

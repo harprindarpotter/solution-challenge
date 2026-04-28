@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛡️ Digital Sports Media Asset Protection Platform
 
-## Getting Started
+A specialized Next.js web application designed for sports organizations to track, authenticate, and protect their high-value digital media assets. This platform provides a centralized command center to register official content, simulate web-wide propagation tracking, and manage copyright violations.
 
-First, run the development server:
+## 🌟 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Sports organizations (clubs, leagues, broadcasters) produce high-value digital content—match highlights, player photos, official graphics—that often gets redistributed without permission. This platform empowers organizations to monitor their digital footprint in near real-time, providing tools for both protection and propagation analysis.
+
+## 🚀 Core Features
+
+- **📊 Intelligence Dashboard**: Real-time visualization of asset protection status, active scans, and detected violations using Recharts.
+- **📁 Asset Registry**: A centralized catalog to manage official photos, videos, and graphics with automated status tracking (Protected, Violation Found, Scanning).
+- **🔍 Simulated Deep Scan**: An interactive scanning engine that mimics web-crawling to identify unauthorized content use with precise similarity scoring.
+- **⚖️ Violations Management**: A robust system to review flagged content, assess severity (High, Medium, Low), and track resolution workflows.
+- **🛰️ Propagation Mapping**: A visual timeline and growth chart showing how assets spread across digital platforms (Twitter, Reddit, Blogs, etc.) from the point of origin.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Charts**: [Recharts](https://recharts.org/)
+- **State Management**: React `useState` & `useReducer`
+- **Data**: Local JSON-based Mock Data System
+
+## 📁 Project Structure
+
+```text
+├── app/                 # Route segments (Dashboard, Assets, Scan, Violations, Propagation) & Global CSS
+├── components/          # Atomic UI components (Sidebar, StatCards, Modals, Tables)
+├── data/                # Mock JSON datasets (Assets, Violations, Propagation)
+└── public/              # Static assets and icons
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 18.x or later
+- npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **Access the platform:**
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Prototype Status & Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This application is a **functional prototype** built for demonstration and workflow validation. 
+
+- **Data Handling**: It uses a local state and JSON mock data system instead of a live database or real web crawlers.
+- **Simulation**: The "Scan" functionality is simulated to demonstrate the user experience of web-wide asset tracking without requiring external API dependencies or active crawling infrastructure.
+- **Theming**: Optimized for a high-contrast professional dark/light theme using Tailwind CSS primitives.
+
+---
+
+*Developed for the Digital Asset Protection Solution Challenge.*
